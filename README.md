@@ -1,7 +1,7 @@
 # Vídeo:
 https://drive.google.com/file/d/1TT0qk8TX_nulOE8D83c3UKJ8hGJdZe_Z/view
 
-# Simulação
+# Simulação:
 Para simular no renode, basta copiar os comandos abaixo:
 
 using sysbus
