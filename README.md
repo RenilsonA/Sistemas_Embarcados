@@ -1,11 +1,14 @@
-# Sistemas_Embarcados
+# Vídeo:
+https://drive.google.com/file/d/1TT0qk8TX_nulOE8D83c3UKJ8hGJdZe_Z/view
+
+# Simulação
 Para simular no renode, basta copiar os comandos abaixo:
 
 using sysbus
 
-$central_bin?=@C:\Users\renil\OneDrive\Documentos\PlatformIO\Projects\ble_central\.pio\build\nrf52840_dk\firmware.elf
+$central_bin?=@(arquivo central .elf)
 
-$peripheral_bin?=@C:\Users\renil\OneDrive\Documentos\PlatformIO\Projects\ble_peripheral\.pio\build\nrf52840_dk\firmware.elf
+$peripheral_bin?=@(arquivo periférico .elf)
 
 emulation CreateBLEMedium "wireless"
 
